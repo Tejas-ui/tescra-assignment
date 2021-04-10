@@ -81,3 +81,9 @@ p {
     font-weight: bold;
     margin: 20px;
 }
+
+@media (max-width: 600px) { 
+    p {
+      width: 100%;
+      font-size: 1.5rem;
+    }
