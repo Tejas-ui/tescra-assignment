@@ -82,8 +82,35 @@ p {
     margin: 20px;
 }
 
-@media (max-width: 600px) { 
-    p {
-      width: 100%;
-      font-size: 1.5rem;
-    }
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+ p {
+    width: 100%;
+  }
+h1 {
+    font-size: 15px;
+    text-align: center;
+}
+.box1 {
+    width: 120px;
+    height: 120px;
+    padding: 18px;
+    max-width: 30rem;
+  }
+  .box2 {
+    width: 120px;
+    height: 120px;
+    padding: 18px;
+}
+.box3 {
+    width: 120px;
+    height: 120px;
+    padding: 18px;
+}
+.box4 {
+    width: 120px;
+    height: 120px;
+    padding: 18px;
+}
+
+}
