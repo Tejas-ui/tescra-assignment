@@ -91,6 +91,11 @@ h1 {
     font-size: 15px;
     text-align: center;
 }
+    main {
+    display: flex;
+    flex-direction: column;
+}
+    
 .box1 {
     width: 120px;
     height: 120px;
